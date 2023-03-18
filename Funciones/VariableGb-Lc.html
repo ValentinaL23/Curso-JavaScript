@@ -1,0 +1,40 @@
+<script>
+        // VARIABLES GLOBALES: Se pueden usar fuera de una función
+    
+    /*var miVariableGlobal = 5;
+
+    console.log(miVariableGlobal);
+
+    function miFuncion() {
+        console.log(miVariableGlobal);
+    }
+
+    miFuncion();
+    console.log(miVariableGlobal);*/
+// --------------------------------------------
+
+        // VARIABLES LOCALES: No se pueden usar fuera de una función
+
+    function miFuncion() {
+        var miVariableLocal = 4;
+        console.log(miVariableLocal);
+    }
+
+    miFuncion();
+    console.log(miVariableLocal);
+// --------------------------------------------
+
+        // Variables Globales & Locales
+
+    var miNombre = "Sara";
+
+    function mostarMiNombre() {
+        var miNombre = "Dani";
+        console.log(miNombre);
+    }
+
+    mostarMiNombre(); /* Para imprimir una var local, se escribe el nombre de la 
+                         función que tiene la var local fuera de la función*/
+
+    console.log(miNombre);
+</script>

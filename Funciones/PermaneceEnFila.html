@@ -1,0 +1,14 @@
+<script>
+    function proximoEnLaFila(arreglo, elemento ) {
+        arreglo.push(elemento);
+        return arreglo.shift();
+    }
+
+    var miArreglo = [1, 5, 8, 3];
+
+    console.log("Antes " + JSON.stringify(miArreglo));
+
+    console.log(proximoEnLaFila(miArreglo, 10));
+
+    console.log("Después " + JSON.stringify(miArreglo));
+</script>
