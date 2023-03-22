@@ -1,0 +1,40 @@
+<script>
+    /*function buscarElementoQuimico(simbolo) {
+        var elementoQuimico = "";
+
+        switch (simbolo) {
+            case "H":
+                elementoQuimico = "Hidrógeno";
+                break;
+            case "Sc":
+                elementoQuimico = "Escandio";
+                break;
+            case "Y":
+                elementoQuimico = "Itrio";
+                break;
+            case "K":
+                elementoQuimico = "Potasio";
+                break;
+            case "Pb": 
+                elementoQuimico = "Plomo";
+                break;
+        }
+    }*/
+// -----------------------------------------------------
+
+    function buscarElementoQuimico(simbolo) {
+        var simboloQuimico = {
+            "H": "Hidrógeno",
+            "Sc": "Escandio",
+            "Y": "Itrio",
+            "K": "Potasio",
+            "Pb": "Plomo"
+        };
+
+        return simboloQuimico[simbolo];
+    }
+
+    console.log(buscarElementoQuimico("H"));
+    console.log(buscarElementoQuimico("K"));
+    console.log(buscarElementoQuimico("Pb"));
+</script>

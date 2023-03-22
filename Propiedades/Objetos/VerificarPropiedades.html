@@ -1,0 +1,27 @@
+<script>
+    var miCuaderno = {
+        "color": "Rojo",
+        "marca": "Scribe",
+        "precio": 4.000
+    };
+
+    console.log(miCuaderno.hasOwnProperty("color"));
+
+// --------------------------------------------------
+
+    function verificarPropiedad(obj, propiedad) {
+        if (obj.hasOwnProperty(propiedad)) {
+            return "Propiedad: " + obj[propiedad];
+        } else {
+            return "El objeto no tiene esta propiedad";
+        }
+    }
+
+    var miCuaderno = {
+        "color": "Rojo",
+        "marca": "Scribe",
+        "precio": 4.000
+    };
+
+    console.log(verificarPropiedad(miCuaderno, "color"));
+</script>

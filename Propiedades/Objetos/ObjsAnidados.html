@@ -1,0 +1,26 @@
+<script>
+    var miReceta = {
+        "descripcion": "mi postre favorito",
+        "costo": 15.500,
+        "ingredientes": {
+            "masa": {
+                "maizena": "1 taza",
+                "azucar": "5 cucharadas",
+                "leche": "1 litro"
+            },
+            "cobertura": {
+                "mora": "125 grs",
+                "azucar": "2 cucharadas",
+                "agua": "1 taza"
+            }
+        }
+    };
+
+    console.log(miReceta.ingredientes.cobertura);
+    console.log(miReceta.ingredientes["cobertura"].mora);
+    console.log(miReceta.ingredientes.cobertura["azucar"]);
+//  ---------------------------------------------------    
+    console.log(miReceta.ingredientes.masa.maizena);
+    console.log(miReceta.ingredientes.masa["azucar"]);
+    console.log(miReceta.ingredientes.masa.leche);
+</script>
