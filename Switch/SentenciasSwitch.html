@@ -1,0 +1,39 @@
+<script>
+            // SWITCH
+
+    function clasificarValor(valor) {
+        var respuesta;
+        switch (valor) {
+            case 1:
+                respuesta = "alpha";
+                break;
+            case 2:
+                respuesta = "beta";
+                break;
+            case 3:
+                respuesta = "gamma";
+                break;
+            case 4:
+                respuesta = "delta";
+                break;
+        }
+        return respuesta;
+    }
+
+    console.log(clasificarValor(4));
+// ----------------------------------------------
+
+    var bebida = "agua";
+
+    switch (bebida) {
+        case "agua":
+            console.log("El agua cuesta $1.200");
+            break;
+        case "jugo":
+            console.log("Los jugos cuestan $2.700");
+            break;
+        case "gaseosa":
+            console.log("La gaseosa cuesta $2.300");
+            break;
+    }
+</script>

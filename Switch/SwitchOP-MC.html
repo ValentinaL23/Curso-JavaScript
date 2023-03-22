@@ -1,0 +1,51 @@
+<script>
+            // SWITCH: OPCIÓN PREDETERMINADA
+
+    function seleccionarIdioma(valor) {
+        var idioma;
+        switch (valor) {
+            case 1:
+                idioma = "Español";
+                break;
+            case 2:
+                idioma = "Inglés";
+                break;
+            case 3:
+                idioma = "Italiano";
+                break;
+            case 4:
+                idioma = "Portugués";
+                break;
+            default:
+                idioma = "Coreano";
+        }
+        return idioma;
+    }
+
+    console.log(seleccionarIdioma(9));
+
+// --------------------------------------------------------
+
+            // SWITCH: MÚLTIPLES CASOS
+
+    function clasificarVolumen(valor) {
+        var volumen;
+        switch (valor) {
+            case 1:
+                volumen = "bajo";
+                break;
+            case 2:
+            case 3:
+                volumen = "intermedio";
+                break;
+            case 4:
+            case 5:
+            case 6:
+                volumen = "alto";
+                break;
+        }
+        return volumen;
+    }
+
+    console.log(clasificarVolumen(1));
+</script>
