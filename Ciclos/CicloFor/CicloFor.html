@@ -1,0 +1,22 @@
+<script>
+    var miArreglo = []
+
+    for (var i = 0; i < 10; i++) {
+        miArreglo.push(i);
+    }
+
+    console.log(miArreglo);
+// -------------------------------------
+//                              i += 2
+    for (var i = 0; i < 10; i = i++) {
+        miArreglo.push(i);
+    }
+
+    console.log(miArreglo);
+// -------------------------------------
+    for (var i = 0; i < 10; i += 2) {
+        miArreglo.push("A");
+    }
+
+    console.log(miArreglo);
+</script>

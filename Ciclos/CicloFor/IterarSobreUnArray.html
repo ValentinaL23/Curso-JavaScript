@@ -1,0 +1,33 @@
+<script>
+    var miArreglo = [4, 6, 8, 2];
+    var total = 0;
+
+    for (var i = 0; i < miArreglo.length; i++) {
+        total += miArreglo[i];
+    }
+
+    console.log(total);
+// --------------------------------------------------
+    for (var i = 0; i < miArreglo.length; i++) {
+        console.log("Iteración " + i);
+        console.log(miArreglo[i]);
+        total += miArreglo[i];
+    }
+
+    console.log(total);
+// --------------------------------------------------
+    var lenguajes = ["JavaScript", "Python", "Java", "C++"]
+
+    for (var i = 0; i < lenguajes.length; i++) {
+        console.log(lenguajes[i].toLowerCase());    // minus
+        console.log(lenguajes[i].toUpperCase());    // MAYUS
+    }
+// --------------------------------------------------
+
+    var A = 0;
+    var D = 10
+
+    for (var i = A; i < D; i++) {
+        console.log(i);
+    }
+</script>
