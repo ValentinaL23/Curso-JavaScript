@@ -1,0 +1,23 @@
+<script>
+    const persona = {
+        nombre: "Isabel",
+        presentarse() {
+            return `¡Hi! Mi nombre es ${this.nombre}`;
+        }
+    };
+
+    console.log(persona.presentarse());
+
+// ----------------------------------------------
+
+    const miMascota = {
+        animal: "perro",
+        nombre: "Doni",
+        edad: 7,
+        presentarMascota () {
+            return `Tengo un ${this.animal} llamado ${this.nombre} y tiene ${this.edad} años`;
+        }
+    };
+
+    console.log(mascota.presentarMascota());
+</script>

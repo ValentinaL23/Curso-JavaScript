@@ -1,0 +1,31 @@
+ <script>
+    var a = 6;
+
+    console.log(`El valor de a es: ${a}`);
+//                  ==
+    console.log("El valor de a es: " + a);
+// ---------------------------------------
+    const familiar = {
+        tFamiliar: "madre",
+        nombre: "Sol",
+        edad: undefined,
+        trabajo: "panaderia"
+    };
+
+    console.log(`Parentesco: ${familiar.tFamiliar}, su nombre es ${familiar.nombre}, cuantos años tiene ${familiar.edad} y trabaja en una ${familiar.trabajo}`);
+// ---------------------------------------
+    var miArray  =[2, 5, 8, 11];
+
+    console.log(`El arreglo es ${miArray}`);
+
+    console.log(`El array es ${JSON.stringify(miArray)}`);
+// ---------------------------------------
+    var persona = {
+        nombre: "Pablo Casas",
+        edad: 22
+    };
+
+    const SALUDO = `¡Hello! Mi nombre es ${persona.nombre} y tengo ${persona.edad} años`;
+
+    console.log(SALUDO);
+ </script>

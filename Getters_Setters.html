@@ -1,0 +1,28 @@
+<script>
+    class Album {
+        constructor(artista, cancion) {
+            this._artista = artista;
+            this.cancion = cancion;
+
+        }
+
+        get artista() {
+            return this._artista;
+        }
+
+        set artista(newArtista) {
+            this._artista = newArtista;
+        }
+    }
+
+    var favAlbum = new Album("Alx", "Forgiven");
+    console.log(favAlbum.cancion);
+
+    const album = new Album("Alexis French");
+    console.log(album.artista);
+
+    album.artista = "Alexis";
+    console.log(album.artista)
+
+    
+</script>
